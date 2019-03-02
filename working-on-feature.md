@@ -16,4 +16,14 @@
 
 ## After finishing
 
-a
+- `git checkout master`
+- `git pull origin master`
+- `git checkout -` (to return to your branch, `-` can be replaced with your branch name, e.g. `feature/backend-1`)
+- `git rebase master`, in case any conflicts occur:
+  - resolve them
+  - `git add .`
+  - `git rebase --continue`
+- push all your changes to origin (`-f` option might be needed after rebasing)
+- go to repository on which you've been working on (e.g. https://github.com/zagrosz/backend)
+- click on `Pull requests` and `New pull request`
+- select your branch on `compare` button and click `Create new pull request` and `Create pull request`
