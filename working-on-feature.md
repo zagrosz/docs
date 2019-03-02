@@ -36,4 +36,8 @@
 
 ## Merge
 
--  Select `Squash and merge` option on GitHub
+- Select `Squash and merge` option on GitHub
+- Add feature identifier at the beginning of merge title and describe finished feature briefly, e.g.
+  - `docs-1: Added doc for working on feature`
+- Don't add (or remove if present) optional extended description as details of feature are covered on project board
+- Press `Confirm squash and merge`
