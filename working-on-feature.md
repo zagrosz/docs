@@ -27,3 +27,13 @@
 - go to repository on which you've been working on (e.g. https://github.com/zagrosz/backend)
 - click on `Pull requests` and `New pull request`
 - select your branch on `compare` button and click `Create new pull request` and `Create pull request`
+
+## Code review
+
+- Every pull request needs to be reviewed by at least 2 supervisors (or 1 for one of supervisor's pull request)
+- Make requested changes and/or resolve all conversations on pull request
+- After getting approval from reviewers go to merging process
+
+## Merge
+
+-  Select `Squash and merge` option on GitHub
